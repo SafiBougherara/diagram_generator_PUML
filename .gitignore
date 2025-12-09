@@ -1,0 +1,17 @@
+# Environnement Virtuel
+.venv/
+__pycache__/
+
+# PyInstaller (Build artifacts)
+build/
+dist/
+*.spec
+
+# Fichiers temporaires / Tests
+*.png
+# On ignore les puml sauf s'ils font partie de la doc, ici on assume que ce sont des tests
+*.puml
+
+# Scripts de debug temporaires
+debug_*.py
+test_gen.py
